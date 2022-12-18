@@ -7,24 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32121A3D294F133A00EA5029 /* GameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A3C294F133A00EA5029 /* GameInteractor.swift */; };
+		32121A3F294F134600EA5029 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A3E294F134600EA5029 /* GamePresenter.swift */; };
+		32121A41294F13ED00EA5029 /* GameEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A40294F13ED00EA5029 /* GameEntities.swift */; };
+		32121A43294F13F800EA5029 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A42294F13F800EA5029 /* GameRouter.swift */; };
+		32121A45294F477300EA5029 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A44294F477300EA5029 /* ProfileInteractor.swift */; };
+		32121A47294F478700EA5029 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A46294F478700EA5029 /* ProfilePresenter.swift */; };
+		32121A49294F479600EA5029 /* ProfileEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A48294F479600EA5029 /* ProfileEntities.swift */; };
+		32121A4B294F47A200EA5029 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121A4A294F47A200EA5029 /* ProfileRouter.swift */; };
+		3218135A294E87CB00A8B33E /* LobbyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32181359294E87CB00A8B33E /* LobbyPresenter.swift */; };
+		3218135C294E886200A8B33E /* LobbyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218135B294E886200A8B33E /* LobbyInteractor.swift */; };
+		3218135E294E888B00A8B33E /* LobbyEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218135D294E888B00A8B33E /* LobbyEntities.swift */; };
+		32181360294E88D500A8B33E /* LobbyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3218135F294E88D500A8B33E /* LobbyRouter.swift */; };
+		32181362294E8B4400A8B33E /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32181361294E8B4400A8B33E /* Challenge.swift */; };
 		32A817E7294A7E95000DBC0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A817E6294A7E95000DBC0D /* AppDelegate.swift */; };
 		32A817E9294A7E95000DBC0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A817E8294A7E95000DBC0D /* SceneDelegate.swift */; };
-		32A817EB294A7E95000DBC0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A817EA294A7E95000DBC0D /* ViewController.swift */; };
 		32A817EE294A7E95000DBC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A817EC294A7E95000DBC0D /* Main.storyboard */; };
 		32A817F0294A7E96000DBC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A817EF294A7E96000DBC0D /* Assets.xcassets */; };
 		32A817F3294A7E96000DBC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A817F1294A7E96000DBC0D /* LaunchScreen.storyboard */; };
+		32C74548294E30D700D7924B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74547294E30D700D7924B /* Player.swift */; };
+		32C7454A294E315600D7924B /* RealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74549294E315600D7924B /* RealmDB.swift */; };
+		32C7454E294E31D100D7924B /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7454D294E31D100D7924B /* BoardView.swift */; };
+		32C74550294E31E600D7924B /* BoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C7454F294E31E600D7924B /* BoardView.xib */; };
+		32C74552294E33DD00D7924B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74551294E33DD00D7924B /* Point.swift */; };
+		32C74554294E356300D7924B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74553294E356300D7924B /* Board.swift */; };
+		32C74556294E359F00D7924B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74555294E359F00D7924B /* Game.swift */; };
+		32C7455B294E7EC200D7924B /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7455A294E7EC200D7924B /* LoginManager.swift */; };
+		32C74562294E812000D7924B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74561294E812000D7924B /* LoginPresenter.swift */; };
+		32C74564294E813100D7924B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74563294E813100D7924B /* LoginInteractor.swift */; };
+		32C74566294E815500D7924B /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74565294E815500D7924B /* LoginEntity.swift */; };
+		32C74568294E816700D7924B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C74567294E816700D7924B /* LoginRouter.swift */; };
+		32D27BE4294A949100963614 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D27BE3294A949100963614 /* LoginViewController.swift */; };
+		32D27BE6294A94A300963614 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D27BE5294A94A300963614 /* LobbyViewController.swift */; };
+		32D27BE8294A94BF00963614 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D27BE7294A94BF00963614 /* GameViewController.swift */; };
+		32D27BEA294A94DA00963614 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D27BE9294A94DA00963614 /* ProfileViewController.swift */; };
+		32D27C02294A96E400963614 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D27C01294A96E400963614 /* Observable.swift */; };
 		824DD822C9FE2685CB8D94CE /* Pods_BattleShips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCB89600B18B9F023080D42 /* Pods_BattleShips.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32121A3C294F133A00EA5029 /* GameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInteractor.swift; sourceTree = "<group>"; };
+		32121A3E294F134600EA5029 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		32121A40294F13ED00EA5029 /* GameEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntities.swift; sourceTree = "<group>"; };
+		32121A42294F13F800EA5029 /* GameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
+		32121A44294F477300EA5029 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		32121A46294F478700EA5029 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		32121A48294F479600EA5029 /* ProfileEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEntities.swift; sourceTree = "<group>"; };
+		32121A4A294F47A200EA5029 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		32181359294E87CB00A8B33E /* LobbyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyPresenter.swift; sourceTree = "<group>"; };
+		3218135B294E886200A8B33E /* LobbyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyInteractor.swift; sourceTree = "<group>"; };
+		3218135D294E888B00A8B33E /* LobbyEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyEntities.swift; sourceTree = "<group>"; };
+		3218135F294E88D500A8B33E /* LobbyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyRouter.swift; sourceTree = "<group>"; };
+		32181361294E8B4400A8B33E /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		32A817E3294A7E95000DBC0D /* BattleShips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleShips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A817E6294A7E95000DBC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32A817E8294A7E95000DBC0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32A817EA294A7E95000DBC0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32A817ED294A7E95000DBC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32A817EF294A7E96000DBC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A817F2294A7E96000DBC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A817F4294A7E96000DBC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C74547294E30D700D7924B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		32C74549294E315600D7924B /* RealmDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDB.swift; sourceTree = "<group>"; };
+		32C7454D294E31D100D7924B /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		32C7454F294E31E600D7924B /* BoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardView.xib; sourceTree = "<group>"; };
+		32C74551294E33DD00D7924B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		32C74553294E356300D7924B /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		32C74555294E359F00D7924B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		32C7455A294E7EC200D7924B /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		32C74561294E812000D7924B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		32C74563294E813100D7924B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		32C74565294E815500D7924B /* LoginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		32C74567294E816700D7924B /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		32D27BE3294A949100963614 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32D27BE5294A94A300963614 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		32D27BE7294A94BF00963614 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		32D27BE9294A94DA00963614 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		32D27C01294A96E400963614 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		855C4FAB838BB0688AE97454 /* Pods-BattleShips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BattleShips.debug.xcconfig"; path = "Target Support Files/Pods-BattleShips/Pods-BattleShips.debug.xcconfig"; sourceTree = "<group>"; };
 		E2CC282332CBD196A67E9E7D /* Pods-BattleShips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BattleShips.release.xcconfig"; path = "Target Support Files/Pods-BattleShips/Pods-BattleShips.release.xcconfig"; sourceTree = "<group>"; };
 		EFCB89600B18B9F023080D42 /* Pods_BattleShips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BattleShips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,15 +121,124 @@
 		32A817E5294A7E95000DBC0D /* BattleShips */ = {
 			isa = PBXGroup;
 			children = (
+				32C7455C294E80C600D7924B /* Modules */,
+				32D27BD2294A928000963614 /* Views */,
+				32D27BD0294A927500963614 /* Data */,
+				32D27C01294A96E400963614 /* Observable.swift */,
 				32A817E6294A7E95000DBC0D /* AppDelegate.swift */,
 				32A817E8294A7E95000DBC0D /* SceneDelegate.swift */,
-				32A817EA294A7E95000DBC0D /* ViewController.swift */,
-				32A817EC294A7E95000DBC0D /* Main.storyboard */,
 				32A817EF294A7E96000DBC0D /* Assets.xcassets */,
-				32A817F1294A7E96000DBC0D /* LaunchScreen.storyboard */,
 				32A817F4294A7E96000DBC0D /* Info.plist */,
 			);
 			path = BattleShips;
+			sourceTree = "<group>";
+		};
+		32C7454B294E31AE00D7924B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				32C7454D294E31D100D7924B /* BoardView.swift */,
+				32C7454F294E31E600D7924B /* BoardView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		32C7455C294E80C600D7924B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				32C74560294E80DD00D7924B /* Game */,
+				32C7455F294E80D800D7924B /* Profile */,
+				32C7455E294E80D400D7924B /* Lobby */,
+				32C7455D294E80CC00D7924B /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		32C7455D294E80CC00D7924B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				32D27BE3294A949100963614 /* LoginViewController.swift */,
+				32C74563294E813100D7924B /* LoginInteractor.swift */,
+				32C74561294E812000D7924B /* LoginPresenter.swift */,
+				32C74565294E815500D7924B /* LoginEntity.swift */,
+				32C74567294E816700D7924B /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		32C7455E294E80D400D7924B /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				32D27BE5294A94A300963614 /* LobbyViewController.swift */,
+				3218135B294E886200A8B33E /* LobbyInteractor.swift */,
+				32181359294E87CB00A8B33E /* LobbyPresenter.swift */,
+				3218135D294E888B00A8B33E /* LobbyEntities.swift */,
+				3218135F294E88D500A8B33E /* LobbyRouter.swift */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		32C7455F294E80D800D7924B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				32D27BE9294A94DA00963614 /* ProfileViewController.swift */,
+				32121A44294F477300EA5029 /* ProfileInteractor.swift */,
+				32121A46294F478700EA5029 /* ProfilePresenter.swift */,
+				32121A48294F479600EA5029 /* ProfileEntities.swift */,
+				32121A4A294F47A200EA5029 /* ProfileRouter.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		32C74560294E80DD00D7924B /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				32D27BE7294A94BF00963614 /* GameViewController.swift */,
+				32121A3C294F133A00EA5029 /* GameInteractor.swift */,
+				32121A3E294F134600EA5029 /* GamePresenter.swift */,
+				32121A40294F13ED00EA5029 /* GameEntities.swift */,
+				32121A42294F13F800EA5029 /* GameRouter.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		32D27BD0294A927500963614 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32D27C12294AB86A00963614 /* Models */,
+				32C74549294E315600D7924B /* RealmDB.swift */,
+				32C7455A294E7EC200D7924B /* LoginManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		32D27BD2294A928000963614 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32D27BD9294A933300963614 /* Storyboards */,
+				32C7454B294E31AE00D7924B /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32D27BD9294A933300963614 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32A817EC294A7E95000DBC0D /* Main.storyboard */,
+				32A817F1294A7E96000DBC0D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32D27C12294AB86A00963614 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32C74547294E30D700D7924B /* Player.swift */,
+				32C74551294E33DD00D7924B /* Point.swift */,
+				32C74553294E356300D7924B /* Board.swift */,
+				32C74555294E359F00D7924B /* Game.swift */,
+				32181361294E8B4400A8B33E /* Challenge.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		36AB6FE37A971A1DAE2F97DA /* Pods */ = {
@@ -80,7 +247,6 @@
 				855C4FAB838BB0688AE97454 /* Pods-BattleShips.debug.xcconfig */,
 				E2CC282332CBD196A67E9E7D /* Pods-BattleShips.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A817F3294A7E96000DBC0D /* LaunchScreen.storyboard in Resources */,
+				32C74550294E31E600D7924B /* BoardView.xib in Resources */,
 				32A817F0294A7E96000DBC0D /* Assets.xcassets in Resources */,
 				32A817EE294A7E95000DBC0D /* Main.storyboard in Resources */,
 			);
@@ -207,9 +374,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A817EB294A7E95000DBC0D /* ViewController.swift in Sources */,
+				32C74564294E813100D7924B /* LoginInteractor.swift in Sources */,
+				32C74562294E812000D7924B /* LoginPresenter.swift in Sources */,
+				32D27BE4294A949100963614 /* LoginViewController.swift in Sources */,
+				32121A4B294F47A200EA5029 /* ProfileRouter.swift in Sources */,
+				32181360294E88D500A8B33E /* LobbyRouter.swift in Sources */,
+				32121A43294F13F800EA5029 /* GameRouter.swift in Sources */,
+				32121A41294F13ED00EA5029 /* GameEntities.swift in Sources */,
+				32121A45294F477300EA5029 /* ProfileInteractor.swift in Sources */,
+				32D27BE6294A94A300963614 /* LobbyViewController.swift in Sources */,
+				32C74554294E356300D7924B /* Board.swift in Sources */,
+				32C74556294E359F00D7924B /* Game.swift in Sources */,
 				32A817E7294A7E95000DBC0D /* AppDelegate.swift in Sources */,
+				32C7455B294E7EC200D7924B /* LoginManager.swift in Sources */,
+				32C74566294E815500D7924B /* LoginEntity.swift in Sources */,
 				32A817E9294A7E95000DBC0D /* SceneDelegate.swift in Sources */,
+				32121A49294F479600EA5029 /* ProfileEntities.swift in Sources */,
+				3218135E294E888B00A8B33E /* LobbyEntities.swift in Sources */,
+				32121A3D294F133A00EA5029 /* GameInteractor.swift in Sources */,
+				32121A3F294F134600EA5029 /* GamePresenter.swift in Sources */,
+				32C7454A294E315600D7924B /* RealmDB.swift in Sources */,
+				32C74548294E30D700D7924B /* Player.swift in Sources */,
+				32D27BEA294A94DA00963614 /* ProfileViewController.swift in Sources */,
+				32C74568294E816700D7924B /* LoginRouter.swift in Sources */,
+				32121A47294F478700EA5029 /* ProfilePresenter.swift in Sources */,
+				32C74552294E33DD00D7924B /* Point.swift in Sources */,
+				3218135A294E87CB00A8B33E /* LobbyPresenter.swift in Sources */,
+				32C7454E294E31D100D7924B /* BoardView.swift in Sources */,
+				32D27BE8294A94BF00963614 /* GameViewController.swift in Sources */,
+				32D27C02294A96E400963614 /* Observable.swift in Sources */,
+				3218135C294E886200A8B33E /* LobbyInteractor.swift in Sources */,
+				32181362294E8B4400A8B33E /* Challenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -355,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97AF9CH96R;
@@ -367,7 +563,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97AF9CH96R;
@@ -402,7 +599,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
