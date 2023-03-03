@@ -12,12 +12,13 @@
 * Login/Registration
 * Rating System
 * Online Lobby
-* Challenge System
-* Nickname Customization
+* Challenge System (sending challenges to other players)
+* Profile Customization
 * "Sea Battle" Rules
 
 ## Architecture Components
 * VIPER Pattern (Presentation)
+* Delegation Pattern (Some custom views)
 
-## Usage 
-Will be added soon...
+## Results
+![alt_text](./Materials/Battleships.jpg)

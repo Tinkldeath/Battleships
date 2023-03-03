@@ -34,7 +34,9 @@ class BoardView: UIView {
         for button in self.pointButtons {
             button.addAction(UIAction(handler: { [weak self] _ in
                 if let index = self?.pointButtons.firstIndex(where: { $0 === button }) {
-                    self?.selectPointAction(index % 10, index / 10)
+                    if button.configuration?.baseBackgroundColor != UIColor.red {
+                        self?.selectPointAction(index % 10, index / 10)
+                    }
                 }
             }), for: .touchDown)
         }
