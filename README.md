@@ -20,5 +20,5 @@
 * VIPER Pattern (Presentation)
 * Delegation Pattern (Some custom views)
 
-## Results
+## Results:
 ![alt_text](./Materials/Battleships.jpg)
